@@ -1,0 +1,573 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20213.21.1018.0949                               -->
+<workbook original-version='18.1' source-build='2021.3.3 (20213.21.1018.0949)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Hospital Visits  Revenue_Hospital Visits' inline='true' name='federated.106vexy025b15o15y4b1x0fpf0t0' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Hospital Visits  Revenue_Hospital Visits' name='textscan.1jchkyi15iatk218dtv650s7s5xk'>
+            <connection class='textscan' directory='C:/Users/dodev/Downloads' filename='Hospital Visits  Revenue_Hospital Visits.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1jchkyi15iatk218dtv650s7s5xk' name='Hospital Visits  Revenue_Hospital Visits.csv' table='[Hospital Visits  Revenue_Hospital Visits#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=';'>
+            <column datatype='date' name='Date of Admit' ordinal='0' />
+            <column datatype='date' name='Date of Discharge' ordinal='1' />
+            <column datatype='string' name='Department' ordinal='2' />
+            <column datatype='string' name='Department (group)' ordinal='3' />
+            <column datatype='string' name='Department Type' ordinal='4' />
+            <column datatype='string' name='Doctor' ordinal='5' />
+            <column datatype='string' name='Hospital Branch' ordinal='6' />
+            <column datatype='integer' name='Minutes to Service (bin)' ordinal='7' />
+            <column datatype='integer' name='Patient ID' ordinal='8' />
+            <column datatype='string' name='Patient Name' ordinal='9' />
+            <column datatype='string' name='Patient Risk Profile' ordinal='10' />
+            <column datatype='integer' name='Row ID' ordinal='11' />
+            <column datatype='integer' name='Days in Hospital' ordinal='12' />
+            <column datatype='integer' name='Minutes to Service' ordinal='13' />
+            <column datatype='integer' name='Number of Patient Visits' ordinal='14' />
+            <column datatype='integer' name='Revenue' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1jchkyi15iatk218dtv650s7s5xk' name='Hospital Visits  Revenue_Hospital Visits.csv' table='[Hospital Visits  Revenue_Hospital Visits#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=';'>
+            <column datatype='date' name='Date of Admit' ordinal='0' />
+            <column datatype='date' name='Date of Discharge' ordinal='1' />
+            <column datatype='string' name='Department' ordinal='2' />
+            <column datatype='string' name='Department (group)' ordinal='3' />
+            <column datatype='string' name='Department Type' ordinal='4' />
+            <column datatype='string' name='Doctor' ordinal='5' />
+            <column datatype='string' name='Hospital Branch' ordinal='6' />
+            <column datatype='integer' name='Minutes to Service (bin)' ordinal='7' />
+            <column datatype='integer' name='Patient ID' ordinal='8' />
+            <column datatype='string' name='Patient Name' ordinal='9' />
+            <column datatype='string' name='Patient Risk Profile' ordinal='10' />
+            <column datatype='integer' name='Row ID' ordinal='11' />
+            <column datatype='integer' name='Days in Hospital' ordinal='12' />
+            <column datatype='integer' name='Minutes to Service' ordinal='13' />
+            <column datatype='integer' name='Number of Patient Visits' ordinal='14' />
+            <column datatype='integer' name='Revenue' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Hospital Visits  Revenue_Hospital Visits.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;;&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date of Admit</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date of Admit]</local-name>
+            <parent-name>[Hospital Visits  Revenue_Hospital Visits.csv]</parent-name>
+            <remote-alias>Date of Admit</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital Visits  Revenue_Hospital Visits.csv_AA4E1A32092F4EBDABF89242F4A2886E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date of Discharge</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date of Discharge]</local-name>
+            <parent-name>[Hospital Visits  Revenue_Hospital Visits.csv]</parent-name>
+            <remote-alias>Date of Discharge</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital Visits  Revenue_Hospital Visits.csv_AA4E1A32092F4EBDABF89242F4A2886E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Department</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Department]</local-name>
+            <parent-name>[Hospital Visits  Revenue_Hospital Visits.csv]</parent-name>
+            <remote-alias>Department</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital Visits  Revenue_Hospital Visits.csv_AA4E1A32092F4EBDABF89242F4A2886E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Department (group)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Department (group)]</local-name>
+            <parent-name>[Hospital Visits  Revenue_Hospital Visits.csv]</parent-name>
+            <remote-alias>Department (group)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital Visits  Revenue_Hospital Visits.csv_AA4E1A32092F4EBDABF89242F4A2886E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Department Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Department Type]</local-name>
+            <parent-name>[Hospital Visits  Revenue_Hospital Visits.csv]</parent-name>
+            <remote-alias>Department Type</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital Visits  Revenue_Hospital Visits.csv_AA4E1A32092F4EBDABF89242F4A2886E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Doctor</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Doctor]</local-name>
+            <parent-name>[Hospital Visits  Revenue_Hospital Visits.csv]</parent-name>
+            <remote-alias>Doctor</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital Visits  Revenue_Hospital Visits.csv_AA4E1A32092F4EBDABF89242F4A2886E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hospital Branch</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Hospital Branch]</local-name>
+            <parent-name>[Hospital Visits  Revenue_Hospital Visits.csv]</parent-name>
+            <remote-alias>Hospital Branch</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital Visits  Revenue_Hospital Visits.csv_AA4E1A32092F4EBDABF89242F4A2886E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Minutes to Service (bin)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Minutes to Service (bin)]</local-name>
+            <parent-name>[Hospital Visits  Revenue_Hospital Visits.csv]</parent-name>
+            <remote-alias>Minutes to Service (bin)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital Visits  Revenue_Hospital Visits.csv_AA4E1A32092F4EBDABF89242F4A2886E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Patient ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Patient ID]</local-name>
+            <parent-name>[Hospital Visits  Revenue_Hospital Visits.csv]</parent-name>
+            <remote-alias>Patient ID</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital Visits  Revenue_Hospital Visits.csv_AA4E1A32092F4EBDABF89242F4A2886E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Patient Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Patient Name]</local-name>
+            <parent-name>[Hospital Visits  Revenue_Hospital Visits.csv]</parent-name>
+            <remote-alias>Patient Name</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital Visits  Revenue_Hospital Visits.csv_AA4E1A32092F4EBDABF89242F4A2886E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Patient Risk Profile</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Patient Risk Profile]</local-name>
+            <parent-name>[Hospital Visits  Revenue_Hospital Visits.csv]</parent-name>
+            <remote-alias>Patient Risk Profile</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital Visits  Revenue_Hospital Visits.csv_AA4E1A32092F4EBDABF89242F4A2886E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Row ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Row ID]</local-name>
+            <parent-name>[Hospital Visits  Revenue_Hospital Visits.csv]</parent-name>
+            <remote-alias>Row ID</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital Visits  Revenue_Hospital Visits.csv_AA4E1A32092F4EBDABF89242F4A2886E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Days in Hospital</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Days in Hospital]</local-name>
+            <parent-name>[Hospital Visits  Revenue_Hospital Visits.csv]</parent-name>
+            <remote-alias>Days in Hospital</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital Visits  Revenue_Hospital Visits.csv_AA4E1A32092F4EBDABF89242F4A2886E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Minutes to Service</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Minutes to Service]</local-name>
+            <parent-name>[Hospital Visits  Revenue_Hospital Visits.csv]</parent-name>
+            <remote-alias>Minutes to Service</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital Visits  Revenue_Hospital Visits.csv_AA4E1A32092F4EBDABF89242F4A2886E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of Patient Visits</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of Patient Visits]</local-name>
+            <parent-name>[Hospital Visits  Revenue_Hospital Visits.csv]</parent-name>
+            <remote-alias>Number of Patient Visits</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital Visits  Revenue_Hospital Visits.csv_AA4E1A32092F4EBDABF89242F4A2886E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Revenue</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Revenue]</local-name>
+            <parent-name>[Hospital Visits  Revenue_Hospital Visits.csv]</parent-name>
+            <remote-alias>Revenue</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital Visits  Revenue_Hospital Visits.csv_AA4E1A32092F4EBDABF89242F4A2886E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Department]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Patient ID]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Row ID]' role='dimension' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Hospital Visits  Revenue_Hospital Visits.csv' datatype='table' name='[__tableau_internal_object_id__].[Hospital Visits  Revenue_Hospital Visits.csv_AA4E1A32092F4EBDABF89242F4A2886E]' role='measure' type='quantitative' />
+      <column-instance column='[Department]' derivation='None' name='[none:Department:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Department:nk]' palette='tableau-20' type='palette'>
+            <map to='#1f77b4'>
+              <bucket>&quot;Anaesthetics&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;Gastroenterology&quot;</bucket>
+            </map>
+            <map to='#8c564b'>
+              <bucket>&quot;Neonatal&quot;</bucket>
+            </map>
+            <map to='#9467bd'>
+              <bucket>&quot;Internal Medicine&quot;</bucket>
+            </map>
+            <map to='#98df8a'>
+              <bucket>&quot;General Surgery&quot;</bucket>
+            </map>
+            <map to='#aec7e8'>
+              <bucket>&quot;Cardiology&quot;</bucket>
+            </map>
+            <map to='#c49c94'>
+              <bucket>&quot;Neurology&quot;</bucket>
+            </map>
+            <map to='#c5b0d5'>
+              <bucket>&quot;Microbiology&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;Haematology&quot;</bucket>
+            </map>
+            <map to='#e377c2'>
+              <bucket>&quot;Nutrition&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;Diagnostic Imaging&quot;</bucket>
+            </map>
+            <map to='#ff9896'>
+              <bucket>&quot;ICU&quot;</bucket>
+            </map>
+            <map to='#ffbb78'>
+              <bucket>&quot;ER&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;North Macedonia&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Hospital Visits  Revenue_Hospital Visits.csv' id='Hospital Visits  Revenue_Hospital Visits.csv_AA4E1A32092F4EBDABF89242F4A2886E'>
+            <properties context=''>
+              <relation connection='textscan.1jchkyi15iatk218dtv650s7s5xk' name='Hospital Visits  Revenue_Hospital Visits.csv' table='[Hospital Visits  Revenue_Hospital Visits#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=';'>
+                  <column datatype='date' name='Date of Admit' ordinal='0' />
+                  <column datatype='date' name='Date of Discharge' ordinal='1' />
+                  <column datatype='string' name='Department' ordinal='2' />
+                  <column datatype='string' name='Department (group)' ordinal='3' />
+                  <column datatype='string' name='Department Type' ordinal='4' />
+                  <column datatype='string' name='Doctor' ordinal='5' />
+                  <column datatype='string' name='Hospital Branch' ordinal='6' />
+                  <column datatype='integer' name='Minutes to Service (bin)' ordinal='7' />
+                  <column datatype='integer' name='Patient ID' ordinal='8' />
+                  <column datatype='string' name='Patient Name' ordinal='9' />
+                  <column datatype='string' name='Patient Risk Profile' ordinal='10' />
+                  <column datatype='integer' name='Row ID' ordinal='11' />
+                  <column datatype='integer' name='Days in Hospital' ordinal='12' />
+                  <column datatype='integer' name='Minutes to Service' ordinal='13' />
+                  <column datatype='integer' name='Number of Patient Visits' ordinal='14' />
+                  <column datatype='integer' name='Revenue' ordinal='15' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Scatterplot за зависноста меѓу просечниот број на денови и просечни минити за преглед по оддел</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text />
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hospital Visits  Revenue_Hospital Visits' name='federated.106vexy025b15o15y4b1x0fpf0t0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.106vexy025b15o15y4b1x0fpf0t0'>
+            <column datatype='integer' name='[Days in Hospital]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Department]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Minutes to Service]' role='measure' type='quantitative' />
+            <column-instance column='[Days in Hospital]' derivation='Avg' name='[avg:Days in Hospital:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Minutes to Service]' derivation='Avg' name='[avg:Minutes to Service:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Department]' derivation='None' name='[none:Department:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='show-null-value-warning' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.106vexy025b15o15y4b1x0fpf0t0].[none:Department:nk]' />
+              <text column='[federated.106vexy025b15o15y4b1x0fpf0t0].[none:Department:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true' fontcolor='#787878'>Department:</run>
+                <run fontcolor='#787878'>Æ&#9;</run>
+                <run bold='true'><![CDATA[<[federated.106vexy025b15o15y4b1x0fpf0t0].[none:Department:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontcolor='#787878'>Avg. Days in Hospital:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.106vexy025b15o15y4b1x0fpf0t0].[avg:Days in Hospital:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontcolor='#787878'>Avg. Minutes to Service:</run>
+                <run fontcolor='#787878'>Æ&#9;</run>
+                <run bold='true'><![CDATA[<[federated.106vexy025b15o15y4b1x0fpf0t0].[avg:Minutes to Service:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run bold='true'>&lt;</run>
+                <run bold='true'>[federated.106vexy025b15o15y4b1x0fpf0t0].[none:Department:nk]</run>
+                <run bold='true'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-orientation' value='0' />
+                <format attr='text-align' value='left' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='size' value='2.1988949775695801' />
+                <format attr='shape' value=':filled/circle' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.106vexy025b15o15y4b1x0fpf0t0].[avg:Days in Hospital:qk]</rows>
+        <cols>[federated.106vexy025b15o15y4b1x0fpf0t0].[avg:Minutes to Service:qk]</cols>
+      </table>
+      <simple-id uuid='{AF930168-4399-4443-B0D8-EC29094EC639}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.106vexy025b15o15y4b1x0fpf0t0].[none:Department:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{41C09AB7-1BBA-4DC0-89BF-E422EA17DFCD}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

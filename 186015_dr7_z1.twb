@@ -1,0 +1,1829 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20213.21.1214.2052                               -->
+<workbook original-version='18.1' source-build='2021.3.5 (20213.21.1214.2052)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Gantt Chart Template (5f6966b42528508e7a6dd1fa_Free Excel Gantt Chart Template - Instagantt v3)' inline='true' name='federated.076j9sf1tciepx1fr9ghk0jr5jlt' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='5f6966b42528508e7a6dd1fa_Free Excel Gantt Chart Template - Instagantt v3' name='excel-direct.09p8r750huvmcv1e5x0wf01sc9yn'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/dodev/Downloads/5f6966b42528508e7a6dd1fa_Free Excel Gantt Chart Template - Instagantt v3.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.09p8r750huvmcv1e5x0wf01sc9yn' name='Gantt Chart Template' table='[&apos;Gantt Chart Template$&apos;]' type='table'>
+          <columns gridOrigin='A1:BN38:no:A1:BN38:0' header='yes' outcome='2'>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='real' name='F2' ordinal='1' />
+            <column datatype='integer' name='F3' ordinal='2' />
+            <column datatype='integer' name='F4' ordinal='3' />
+            <column datatype='date' date-parse-format='MM/dd/yyyy' name='Build Gantt Charts Easily with Instagantt. Just click here.' ordinal='4' />
+            <column datatype='date' date-parse-format='MM/dd/yyyy' name='F6' ordinal='5' />
+            <column datatype='string' name='F7' ordinal='6' />
+            <column datatype='string' name='F8' ordinal='7' />
+            <column datatype='string' name='F9' ordinal='8' />
+            <column datatype='string' name='F10' ordinal='9' />
+            <column datatype='string' name='F11' ordinal='10' />
+            <column datatype='string' name='F12' ordinal='11' />
+            <column datatype='string' name='F13' ordinal='12' />
+            <column datatype='string' name='F14' ordinal='13' />
+            <column datatype='string' name='F15' ordinal='14' />
+            <column datatype='real' name='F16' ordinal='15' />
+            <column datatype='real' name='F17' ordinal='16' />
+            <column datatype='real' name='F18' ordinal='17' />
+            <column datatype='real' name='F19' ordinal='18' />
+            <column datatype='real' name='F20' ordinal='19' />
+            <column datatype='string' name='Marketing Plan Gantt Chart Template' ordinal='20' />
+            <column datatype='real' name='F22' ordinal='21' />
+            <column datatype='real' name='F23' ordinal='22' />
+            <column datatype='real' name='F24' ordinal='23' />
+            <column datatype='real' name='F25' ordinal='24' />
+            <column datatype='string' name='F26' ordinal='25' />
+            <column datatype='real' name='F27' ordinal='26' />
+            <column datatype='real' name='F28' ordinal='27' />
+            <column datatype='real' name='F29' ordinal='28' />
+            <column datatype='real' name='F30' ordinal='29' />
+            <column datatype='string' name='F31' ordinal='30' />
+            <column datatype='real' name='F32' ordinal='31' />
+            <column datatype='real' name='F33' ordinal='32' />
+            <column datatype='real' name='F34' ordinal='33' />
+            <column datatype='real' name='F35' ordinal='34' />
+            <column datatype='string' name='F36' ordinal='35' />
+            <column datatype='real' name='F37' ordinal='36' />
+            <column datatype='real' name='F38' ordinal='37' />
+            <column datatype='real' name='F39' ordinal='38' />
+            <column datatype='real' name='F40' ordinal='39' />
+            <column datatype='string' name='F41' ordinal='40' />
+            <column datatype='real' name='F42' ordinal='41' />
+            <column datatype='real' name='F43' ordinal='42' />
+            <column datatype='real' name='F44' ordinal='43' />
+            <column datatype='real' name='F45' ordinal='44' />
+            <column datatype='string' name='F46' ordinal='45' />
+            <column datatype='real' name='F47' ordinal='46' />
+            <column datatype='real' name='F48' ordinal='47' />
+            <column datatype='real' name='F49' ordinal='48' />
+            <column datatype='real' name='F50' ordinal='49' />
+            <column datatype='string' name='F51' ordinal='50' />
+            <column datatype='real' name='F52' ordinal='51' />
+            <column datatype='real' name='F53' ordinal='52' />
+            <column datatype='real' name='F54' ordinal='53' />
+            <column datatype='real' name='F55' ordinal='54' />
+            <column datatype='string' name='F56' ordinal='55' />
+            <column datatype='real' name='F57' ordinal='56' />
+            <column datatype='real' name='F58' ordinal='57' />
+            <column datatype='real' name='F59' ordinal='58' />
+            <column datatype='real' name='F60' ordinal='59' />
+            <column datatype='string' name='F61' ordinal='60' />
+            <column datatype='real' name='F62' ordinal='61' />
+            <column datatype='real' name='F63' ordinal='62' />
+            <column datatype='real' name='F64' ordinal='63' />
+            <column datatype='real' name='F65' ordinal='64' />
+            <column datatype='string' name='F66' ordinal='65' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.09p8r750huvmcv1e5x0wf01sc9yn' name='Gantt Chart Template' table='[&apos;Gantt Chart Template$&apos;]' type='table'>
+          <columns gridOrigin='A1:BN38:no:A1:BN38:0' header='yes' outcome='2'>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='real' name='F2' ordinal='1' />
+            <column datatype='integer' name='F3' ordinal='2' />
+            <column datatype='integer' name='F4' ordinal='3' />
+            <column datatype='date' date-parse-format='MM/dd/yyyy' name='Build Gantt Charts Easily with Instagantt. Just click here.' ordinal='4' />
+            <column datatype='date' date-parse-format='MM/dd/yyyy' name='F6' ordinal='5' />
+            <column datatype='string' name='F7' ordinal='6' />
+            <column datatype='string' name='F8' ordinal='7' />
+            <column datatype='string' name='F9' ordinal='8' />
+            <column datatype='string' name='F10' ordinal='9' />
+            <column datatype='string' name='F11' ordinal='10' />
+            <column datatype='string' name='F12' ordinal='11' />
+            <column datatype='string' name='F13' ordinal='12' />
+            <column datatype='string' name='F14' ordinal='13' />
+            <column datatype='string' name='F15' ordinal='14' />
+            <column datatype='real' name='F16' ordinal='15' />
+            <column datatype='real' name='F17' ordinal='16' />
+            <column datatype='real' name='F18' ordinal='17' />
+            <column datatype='real' name='F19' ordinal='18' />
+            <column datatype='real' name='F20' ordinal='19' />
+            <column datatype='string' name='Marketing Plan Gantt Chart Template' ordinal='20' />
+            <column datatype='real' name='F22' ordinal='21' />
+            <column datatype='real' name='F23' ordinal='22' />
+            <column datatype='real' name='F24' ordinal='23' />
+            <column datatype='real' name='F25' ordinal='24' />
+            <column datatype='string' name='F26' ordinal='25' />
+            <column datatype='real' name='F27' ordinal='26' />
+            <column datatype='real' name='F28' ordinal='27' />
+            <column datatype='real' name='F29' ordinal='28' />
+            <column datatype='real' name='F30' ordinal='29' />
+            <column datatype='string' name='F31' ordinal='30' />
+            <column datatype='real' name='F32' ordinal='31' />
+            <column datatype='real' name='F33' ordinal='32' />
+            <column datatype='real' name='F34' ordinal='33' />
+            <column datatype='real' name='F35' ordinal='34' />
+            <column datatype='string' name='F36' ordinal='35' />
+            <column datatype='real' name='F37' ordinal='36' />
+            <column datatype='real' name='F38' ordinal='37' />
+            <column datatype='real' name='F39' ordinal='38' />
+            <column datatype='real' name='F40' ordinal='39' />
+            <column datatype='string' name='F41' ordinal='40' />
+            <column datatype='real' name='F42' ordinal='41' />
+            <column datatype='real' name='F43' ordinal='42' />
+            <column datatype='real' name='F44' ordinal='43' />
+            <column datatype='real' name='F45' ordinal='44' />
+            <column datatype='string' name='F46' ordinal='45' />
+            <column datatype='real' name='F47' ordinal='46' />
+            <column datatype='real' name='F48' ordinal='47' />
+            <column datatype='real' name='F49' ordinal='48' />
+            <column datatype='real' name='F50' ordinal='49' />
+            <column datatype='string' name='F51' ordinal='50' />
+            <column datatype='real' name='F52' ordinal='51' />
+            <column datatype='real' name='F53' ordinal='52' />
+            <column datatype='real' name='F54' ordinal='53' />
+            <column datatype='real' name='F55' ordinal='54' />
+            <column datatype='string' name='F56' ordinal='55' />
+            <column datatype='real' name='F57' ordinal='56' />
+            <column datatype='real' name='F58' ordinal='57' />
+            <column datatype='real' name='F59' ordinal='58' />
+            <column datatype='real' name='F60' ordinal='59' />
+            <column datatype='string' name='F61' ordinal='60' />
+            <column datatype='real' name='F62' ordinal='61' />
+            <column datatype='real' name='F63' ordinal='62' />
+            <column datatype='real' name='F64' ordinal='63' />
+            <column datatype='real' name='F65' ordinal='64' />
+            <column datatype='string' name='F66' ordinal='65' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:BN38:no:A1:BN38:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F2]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F3]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F3</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F4]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F4</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Build Gantt Charts Easily with Instagantt. Just click here.</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Build Gantt Charts Easily with Instagantt. Just click here.]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>Build Gantt Charts Easily with Instagantt. Just click here.</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F6</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[F6]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F6</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F7</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F7]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F7</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F8</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F8]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F8</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F9</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F9]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F9</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F10</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F10]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F10</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F11</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F11]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F11</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F12</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F12]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F12</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F13</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F13]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F13</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F14</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F14]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F14</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F15</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F15]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F15</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F16</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F16]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F16</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F17</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F17]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F17</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F18</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F18]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F18</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F19</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F19]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F19</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F20</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F20]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F20</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Marketing Plan Gantt Chart Template</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Marketing Plan Gantt Chart Template]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>Marketing Plan Gantt Chart Template</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F22</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F22]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F22</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F23</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F23]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F23</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F24</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F24]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F24</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F25</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F25]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F25</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F26</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F26]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F26</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F27</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F27]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F27</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F28</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F28]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F28</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F29</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F29]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F29</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F30</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F30]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F30</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F31</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F31]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F31</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F32</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F32]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F32</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F33</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F33]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F33</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F34</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F34]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F34</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F35</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F35]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F35</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F36</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F36]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F36</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F37</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F37]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F37</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F38</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F38]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F38</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F39</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F39]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F39</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F40</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F40]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F40</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F41</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F41]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F41</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F42</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F42]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F42</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F43</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F43]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F43</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F44</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F44]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F44</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F45</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F45]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F45</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F46</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F46]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F46</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F47</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F47]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F47</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F48</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F48]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F48</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F49</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F49]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F49</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F50</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F50]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F50</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F51</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F51]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F51</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F52</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F52]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F52</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F53</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F53]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F53</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F54</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F54]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F54</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F55</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F55]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F55</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F56</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F56]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F56</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F57</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F57]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F57</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F58</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F58]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F58</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F59</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F59]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F59</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F60</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F60]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F60</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F61</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F61]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F61</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F62</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F62]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F62</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F63</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F63]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F63</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F64</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F64]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F64</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F65</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F65]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F65</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F66</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F66]</local-name>
+            <parent-name>[Gantt Chart Template]</parent-name>
+            <remote-alias>F66</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Build Gantt Charts Easily with Instagantt. Just click here.1' datatype='date' name='[Build Gantt Charts Easily with Instagantt. Just click here.]' role='dimension' type='ordinal' />
+      <column caption='Duration' datatype='integer' name='[Calculation_125537891748356097]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[F6] - [Build Gantt Charts Easily with Instagantt. Just click here.]' />
+      </column>
+      <column datatype='string' name='[F1]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Gantt Chart Template' datatype='table' name='[__tableau_internal_object_id__].[Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E]' role='measure' type='quantitative' />
+      <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:F1:nk]' palette='purple_pink_gray_10_0' type='palette'>
+            <map to='#7c7270'>
+              <bucket>&quot;Publish new articles&quot;</bucket>
+            </map>
+            <map to='#7c7270'>
+              <bucket>&quot;Write press release&quot;</bucket>
+            </map>
+            <map to='#8074a8'>
+              <bucket>&quot;Brainstorming session:&quot;</bucket>
+            </map>
+            <map to='#8074a8'>
+              <bucket>&quot;Write content&quot;</bucket>
+            </map>
+            <map to='#8074a8'>
+              <bucket>&quot;Write sections&quot;</bucket>
+            </map>
+            <map to='#9b93c9'>
+              <bucket>&quot;Launch blog&quot;</bucket>
+            </map>
+            <map to='#9b93c9'>
+              <bucket>&quot;Select media outlet&quot;</bucket>
+            </map>
+            <map to='#9c9290'>
+              <bucket>&quot;Begin design process&quot;</bucket>
+            </map>
+            <map to='#9c9290'>
+              <bucket>&quot;Launch new web&quot;</bucket>
+            </map>
+            <map to='#9c9290'>
+              <bucket>&quot;Prepare content&quot;</bucket>
+            </map>
+            <map to='#b173a0'>
+              <bucket>&quot;Choose topics&quot;</bucket>
+            </map>
+            <map to='#b173a0'>
+              <bucket>&quot;Send to editor&quot;</bucket>
+            </map>
+            <map to='#c46487'>
+              <bucket>&quot;Assign content ideas&quot;</bucket>
+            </map>
+            <map to='#c46487'>
+              <bucket>&quot;Select publishing date&quot;</bucket>
+            </map>
+            <map to='#c46487'>
+              <bucket>&quot;UX/UI&quot;</bucket>
+            </map>
+            <map to='#c5bfbe'>
+              <bucket>&quot;Define new CTAs&quot;</bucket>
+            </map>
+            <map to='#c5bfbe'>
+              <bucket>&quot;Prepare design&quot;</bucket>
+            </map>
+            <map to='#c5bfbe'>
+              <bucket>&quot;Share with team&quot;</bucket>
+            </map>
+            <map to='#c6c1f0'>
+              <bucket>&quot;Approve sections&quot;</bucket>
+            </map>
+            <map to='#c6c1f0'>
+              <bucket>&quot;Publish&quot;</bucket>
+            </map>
+            <map to='#c6c1f0'>
+              <bucket>&quot;Schedule tasks&quot;</bucket>
+            </map>
+            <map to='#c799bc'>
+              <bucket>&quot;Define look &amp; feel&quot;</bucket>
+            </map>
+            <map to='#c799bc'>
+              <bucket>&quot;Design layout&quot;</bucket>
+            </map>
+            <map to='#ddb5d5'>
+              <bucket>&quot;Call media outlet&quot;</bucket>
+            </map>
+            <map to='#ddb5d5'>
+              <bucket>&quot;Schedule new articles&quot;</bucket>
+            </map>
+            <map to='#f498b6'>
+              <bucket>&quot;Assign new topics to writers&quot;</bucket>
+            </map>
+            <map to='#f498b6'>
+              <bucket>&quot;Send press release&quot;</bucket>
+            </map>
+            <map to='#ffbed1'>
+              <bucket>&quot;Approve design&quot;</bucket>
+            </map>
+            <map to='#ffbed1'>
+              <bucket>&quot;Define new look for blog&quot;</bucket>
+            </map>
+            <map to='#ffbed1'>
+              <bucket>&quot;Share on Social Media&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Gantt Chart Template' id='Gantt Chart Template_6B06B25615814305B1FD6669DC28AA0E'>
+            <properties context=''>
+              <relation connection='excel-direct.09p8r750huvmcv1e5x0wf01sc9yn' name='Gantt Chart Template' table='[&apos;Gantt Chart Template$&apos;]' type='table'>
+                <columns gridOrigin='A1:BN38:no:A1:BN38:0' header='yes' outcome='2'>
+                  <column datatype='string' name='F1' ordinal='0' />
+                  <column datatype='real' name='F2' ordinal='1' />
+                  <column datatype='integer' name='F3' ordinal='2' />
+                  <column datatype='integer' name='F4' ordinal='3' />
+                  <column datatype='date' date-parse-format='MM/dd/yyyy' name='Build Gantt Charts Easily with Instagantt. Just click here.' ordinal='4' />
+                  <column datatype='date' date-parse-format='MM/dd/yyyy' name='F6' ordinal='5' />
+                  <column datatype='string' name='F7' ordinal='6' />
+                  <column datatype='string' name='F8' ordinal='7' />
+                  <column datatype='string' name='F9' ordinal='8' />
+                  <column datatype='string' name='F10' ordinal='9' />
+                  <column datatype='string' name='F11' ordinal='10' />
+                  <column datatype='string' name='F12' ordinal='11' />
+                  <column datatype='string' name='F13' ordinal='12' />
+                  <column datatype='string' name='F14' ordinal='13' />
+                  <column datatype='string' name='F15' ordinal='14' />
+                  <column datatype='real' name='F16' ordinal='15' />
+                  <column datatype='real' name='F17' ordinal='16' />
+                  <column datatype='real' name='F18' ordinal='17' />
+                  <column datatype='real' name='F19' ordinal='18' />
+                  <column datatype='real' name='F20' ordinal='19' />
+                  <column datatype='string' name='Marketing Plan Gantt Chart Template' ordinal='20' />
+                  <column datatype='real' name='F22' ordinal='21' />
+                  <column datatype='real' name='F23' ordinal='22' />
+                  <column datatype='real' name='F24' ordinal='23' />
+                  <column datatype='real' name='F25' ordinal='24' />
+                  <column datatype='string' name='F26' ordinal='25' />
+                  <column datatype='real' name='F27' ordinal='26' />
+                  <column datatype='real' name='F28' ordinal='27' />
+                  <column datatype='real' name='F29' ordinal='28' />
+                  <column datatype='real' name='F30' ordinal='29' />
+                  <column datatype='string' name='F31' ordinal='30' />
+                  <column datatype='real' name='F32' ordinal='31' />
+                  <column datatype='real' name='F33' ordinal='32' />
+                  <column datatype='real' name='F34' ordinal='33' />
+                  <column datatype='real' name='F35' ordinal='34' />
+                  <column datatype='string' name='F36' ordinal='35' />
+                  <column datatype='real' name='F37' ordinal='36' />
+                  <column datatype='real' name='F38' ordinal='37' />
+                  <column datatype='real' name='F39' ordinal='38' />
+                  <column datatype='real' name='F40' ordinal='39' />
+                  <column datatype='string' name='F41' ordinal='40' />
+                  <column datatype='real' name='F42' ordinal='41' />
+                  <column datatype='real' name='F43' ordinal='42' />
+                  <column datatype='real' name='F44' ordinal='43' />
+                  <column datatype='real' name='F45' ordinal='44' />
+                  <column datatype='string' name='F46' ordinal='45' />
+                  <column datatype='real' name='F47' ordinal='46' />
+                  <column datatype='real' name='F48' ordinal='47' />
+                  <column datatype='real' name='F49' ordinal='48' />
+                  <column datatype='real' name='F50' ordinal='49' />
+                  <column datatype='string' name='F51' ordinal='50' />
+                  <column datatype='real' name='F52' ordinal='51' />
+                  <column datatype='real' name='F53' ordinal='52' />
+                  <column datatype='real' name='F54' ordinal='53' />
+                  <column datatype='real' name='F55' ordinal='54' />
+                  <column datatype='string' name='F56' ordinal='55' />
+                  <column datatype='real' name='F57' ordinal='56' />
+                  <column datatype='real' name='F58' ordinal='57' />
+                  <column datatype='real' name='F59' ordinal='58' />
+                  <column datatype='real' name='F60' ordinal='59' />
+                  <column datatype='string' name='F61' ordinal='60' />
+                  <column datatype='real' name='F62' ordinal='61' />
+                  <column datatype='real' name='F63' ordinal='62' />
+                  <column datatype='real' name='F64' ordinal='63' />
+                  <column datatype='real' name='F65' ordinal='64' />
+                  <column datatype='string' name='F66' ordinal='65' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#001a1e' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji' fontsize='12'>Gant дијаграм за актовности во еден проект</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text />
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Gantt Chart Template (5f6966b42528508e7a6dd1fa_Free Excel Gantt Chart Template - Instagantt v3)' name='federated.076j9sf1tciepx1fr9ghk0jr5jlt' />
+          </datasources>
+          <datasource-dependencies datasource='federated.076j9sf1tciepx1fr9ghk0jr5jlt'>
+            <column caption='Build Gantt Charts Easily with Instagantt. Just click here.1' datatype='date' name='[Build Gantt Charts Easily with Instagantt. Just click here.]' role='dimension' type='ordinal' />
+            <column caption='Duration' datatype='integer' name='[Calculation_125537891748356097]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[F6] - [Build Gantt Charts Easily with Instagantt. Just click here.]' />
+            </column>
+            <column datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column datatype='date' name='[F6]' role='dimension' type='ordinal' />
+            <column-instance column='[Build Gantt Charts Easily with Instagantt. Just click here.]' derivation='Day' name='[dy:Build Gantt Charts Easily with Instagantt. Just click here.:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Build Gantt Charts Easily with Instagantt. Just click here.]' derivation='Min' name='[min:Build Gantt Charts Easily with Instagantt. Just click here.:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_125537891748356097]' derivation='Sum' name='[sum:Calculation_125537891748356097:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Build Gantt Charts Easily with Instagantt. Just click here.]' derivation='Day-Trunc' name='[tdy:Build Gantt Charts Easily with Instagantt. Just click here.:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.076j9sf1tciepx1fr9ghk0jr5jlt].[dy:Build Gantt Charts Easily with Instagantt. Just click here.:ok]'>
+            <groupfilter from='1' function='range' level='[dy:Build Gantt Charts Easily with Instagantt. Just click here.:ok]' to='31' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <computed-sort column='[federated.076j9sf1tciepx1fr9ghk0jr5jlt].[none:F1:nk]' direction='ASC' using='[federated.076j9sf1tciepx1fr9ghk0jr5jlt].[min:Build Gantt Charts Easily with Instagantt. Just click here.:qk]' />
+          <slices>
+            <column>[federated.076j9sf1tciepx1fr9ghk0jr5jlt].[dy:Build Gantt Charts Easily with Instagantt. Just click here.:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.076j9sf1tciepx1fr9ghk0jr5jlt].[tdy:Build Gantt Charts Easily with Instagantt. Just click here.:qk]' scope='cols' value='Days' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.076j9sf1tciepx1fr9ghk0jr5jlt].[none:F1:nk]' />
+              <size column='[federated.076j9sf1tciepx1fr9ghk0jr5jlt].[sum:Calculation_125537891748356097:qk]' />
+              <text column='[federated.076j9sf1tciepx1fr9ghk0jr5jlt].[sum:Calculation_125537891748356097:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Activity:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.076j9sf1tciepx1fr9ghk0jr5jlt].[none:F1:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Start:&#9;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Duration:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.076j9sf1tciepx1fr9ghk0jr5jlt].[sum:Calculation_125537891748356097:qk]> days]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run fontsize='8'> &lt;</run>
+                <run fontsize='8'>[federated.076j9sf1tciepx1fr9ghk0jr5jlt].[sum:Calculation_125537891748356097:qk]</run>
+                <run fontsize='8'>&gt; days</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='auto' />
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.076j9sf1tciepx1fr9ghk0jr5jlt].[none:F1:nk]</rows>
+        <cols>[federated.076j9sf1tciepx1fr9ghk0jr5jlt].[tdy:Build Gantt Charts Easily with Instagantt. Just click here.:qk]</cols>
+      </table>
+      <simple-id uuid='{9FF96588-BC3B-4341-9BEF-6E02C110069E}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.076j9sf1tciepx1fr9ghk0jr5jlt].[dy:Build Gantt Charts Easily with Instagantt. Just click here.:ok]</field>
+            <field>[federated.076j9sf1tciepx1fr9ghk0jr5jlt].[none:Build Gantt Charts Easily with Instagantt. Just click here.:nk]</field>
+            <field>[federated.076j9sf1tciepx1fr9ghk0jr5jlt].[none:F1:nk]</field>
+            <field>[federated.076j9sf1tciepx1fr9ghk0jr5jlt].[yr:Build Gantt Charts Easily with Instagantt. Just click here.:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{CBE53350-807A-4D8A-AA93-5C1FF8A1A86E}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
