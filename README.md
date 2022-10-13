@@ -1,5 +1,7 @@
 # Visualization
 
+In the pictures below is the finished product from each file uploaded above.   
+
 ![Sheet 1 (7)](https://user-images.githubusercontent.com/61621779/195633153-3e212870-cfbb-4008-a317-e66d71cca053.png)
 ![Sheet 1 (8)](https://user-images.githubusercontent.com/61621779/195633156-228e3b89-c854-495e-9b48-c67899305d0b.png)
 ![Sheet 1](https://user-images.githubusercontent.com/61621779/195633163-4327fe6b-fa56-41e7-8897-2eca58f3d38d.png)
